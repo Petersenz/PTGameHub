@@ -10,6 +10,12 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'PTGameHub | Ultimate Free Gaming Discovery',
   description: 'Explore, analyze and compare over 400+ free-to-play games with PTGameHub.',
+  keywords: ['PTGameHub', 'Free-to-Play', 'Gaming', 'Game Discovery', 'Game Analysis', 'Game Comparison'],
+  authors: [{ name: 'Petersen' }],
+  publisher: 'Petersen',
+  icons: {
+    icon: '/logo.png'
+  }
 }
 
 export default function RootLayout({
